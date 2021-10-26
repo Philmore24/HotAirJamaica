@@ -3,9 +3,14 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Hot Air Jamaica</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1 style="color: #0066FF"><strong><em>Hot Air Jamaica</em></strong></h1>
+        <p class="lead">
+            HotAir Jamaica Ltd is a Wireless Internet Service provider company that needs to create a database 
+management system to keep track of its customers, employees and billing information. Employees range 
+from Technicians, Engineers, Customer service reps, and Managers. Typical employee data are to be stored 
+for each employee.
+        </p>
+        <p><a href="Packages.aspx" class="btn btn-primary btn-lg">See Products &raquo;</a></p>
     </div>
 
     <div class="row">
