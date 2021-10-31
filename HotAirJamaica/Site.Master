@@ -49,9 +49,11 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
+                        <li><a runat="server" id="adminLink" visible="false"
+                            href="~/Admin/AdminPage">ADMIN</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="Packages.aspx">Packages</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="ProductCard.aspx">PACKAGES</a></li>
+                        <li><a runat="server" href="~/About">ABOUT</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">

@@ -6,6 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using HotAirJamaica.Logic;
 
 namespace HotAirJamaica
 {
@@ -16,6 +17,10 @@ namespace HotAirJamaica
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            // Create the administrator role and user.
+            RoleActions roleActions = new RoleActions();
+            roleActions.CreateAdmin();
         }
     }
 }
